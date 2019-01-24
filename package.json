@@ -1,0 +1,36 @@
+{
+  "author": "imath",
+  "bugs": {
+    "url": "https://github.com/imath/section/issues"
+  },
+  "description": "A section to put blocks into",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@wordpress/babel-plugin-makepot": "^2.1.2",
+    "@wordpress/babel-preset-default": "^2.1.0",
+    "matchdep": "~1.0.1",
+    "parcel-bundler": "^1.10.3",
+    "po2json": "^1.0.0-alpha"
+  },
+  "engines": {
+    "node": "~10.13.0"
+  },
+  "scripts": {
+    "start": "parcel watch src/*",
+    "build": "parcel build src/*",
+    "translate": "po2json languages/imath-section-en_US.po languages/imath-section-en_US-imath-section-block.json -f jed",
+    "package": "./bin/build-block-zip.sh"
+  },
+  "keywords": [
+    "search",
+    "form"
+  ],
+  "homepage": "https://github.com/imath/section",
+  "license": "GPL-2.0+",
+  "name": "section",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imath/section.git"
+  },
+  "version": "1.0.0"
+}

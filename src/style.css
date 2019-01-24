@@ -1,0 +1,10 @@
+.editor-block-list__layout [data-type="imath/section"] > .editor-block-list__block-edit:before,
+.editor-block-list__layout [data-type="imath/section"].is-selected > .editor-block-list__block-edit:before,
+.editor-block-list__layout [data-type="imath/section"].is-hovered > .editor-block-list__block-edit:before {
+    outline-width: 3px;
+    outline-style: dashed;
+}
+
+.editor-block-list__layout [data-type="imath/section"]:not( .is-selected ):not( .is-hovered ) > .editor-block-list__block-edit:before {
+    outline-color: rgba(145,151,162,.25);
+}

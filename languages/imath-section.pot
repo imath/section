@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/index.js:7
+msgid "Section"
+msgstr ""
+
+#: src/index.js:9
+msgid "Une section pour y mettre des blocks."
+msgstr ""
