@@ -57,7 +57,6 @@ status "Creating archive..."
 zip -r section.zip \
 	dist \
     languages \
-    lib \
     block.json \
     README.md
 
