@@ -17,6 +17,5 @@ msgid "Section"
 msgstr "Section"
 
 #: src/index.js:9
-#, fuzzy
 msgid "Une section pour y mettre des blocs."
 msgstr "A section to put blocks into."
