@@ -6,7 +6,7 @@ const { __ } = wp.i18n;
 registerBlockType( 'imath/section', {
     title: __( 'Section', 'imath-section' ),
 
-    description: __( 'Une section pour y mettre des blocks.', 'imath-section' ),
+    description: __( 'Une section pour y mettre des blocs.', 'imath-section' ),
 
     icon: function() {
         return (

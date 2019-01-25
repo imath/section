@@ -8,5 +8,5 @@ msgid "Section"
 msgstr ""
 
 #: src/index.js:9
-msgid "Une section pour y mettre des blocks."
+msgid "Une section pour y mettre des blocs."
 msgstr ""
