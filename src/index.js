@@ -8,6 +8,11 @@ registerBlockType( 'imath/section', {
 
     description: __( 'Une section pour y mettre des blocs.', 'imath-section' ),
 
+    supports: {
+		className: true,
+		anchor: true,
+	},
+
     icon: function() {
         return (
             <svg
