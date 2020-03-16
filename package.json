@@ -5,8 +5,8 @@
   },
   "description": "A section to put blocks into",
   "devDependencies": {
-    "@babel/core": "^7.1.0",
-    "@wordpress/babel-plugin-makepot": "^2.1.2",
+    "@babel/core": "^7.7.5",
+    "@wordpress/babel-plugin-makepot": "^2.1.3",
     "@wordpress/babel-preset-default": "^2.1.0",
     "matchdep": "^2.0.0",
     "parcel-bundler": "^1.12.4",
