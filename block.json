@@ -2,7 +2,7 @@
     "name": "Section",
     "author": "imath",
     "github_url": "https://github.com/imath/section.git",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "block_id": "imath/section",
     "editor_script": {
         "handle": "imath-section-block",
@@ -13,7 +13,7 @@
     },
     "editor_style": {
         "handle": "imath-section-style",
-        "relative_path"  : "dist/style.css",
+        "relative_path": "dist/style.css",
         "dependencies": []
     },
     "translations": {
